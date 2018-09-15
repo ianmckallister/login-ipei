@@ -1,0 +1,62 @@
+    <link rel="stylesheet" href="css/login.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <div class="bg-ipei-med"></div>
+
+<body class="container-fluid">       
+               
+<div id="particles-js"></div>
+<script type="text/javascript" src="js/particles.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+    <section class="row">    
+
+           <div class="logotipo col-12 d-flex justify-content-center">
+                   <img src="img/logo-solo.png" alt="logo-ipei">
+           </div>
+        
+           <div class="col-12 d-flex justify-content-center d-inline">    
+               <h3 class="ipeibook d-none d-md-block">Ipeibook</h3>
+               <h3 class="ipeibook d-md-none">IPEI</h3>
+           </div>
+
+           <div class="col-12 col-sm-12 text-white">
+               <form class="row justify-content-center form-inline login-form" ng-submit="loginUser()">
+                   <div class="col-8 d-md-flex justify-content-center form-group p-1">
+                       <label for="inUser">&nbsp;</label>
+                       <input type="text" id="inUser" class="form-control form-control-sm"  ng-model="inUser" placeholder="Usuario" />
+                   </div>
+                   <div class="col-8 d-md-flex justify-content-center form-group p-1">
+                       <label for="inPass">&nbsp;</label>
+                       <input type="password" id="inPass" class="form-control form-control-sm" ng-model="inPass" placeholder="Contraseña" />
+                   </div>
+                   <div class="col-8 d-md-flex justify-content-center form-group p-1">
+                       <input type="submit" class="btn btn-sm btn-success" value="Iniciar Sesión" />
+                   </div>
+                   <p class="text-danger font-weight-bold" ng-show="loginError"></p>
+               </form>
+           </div>
+        
+    </section>    
+
+    <footer class="p-2 bg-secondary fixed-bottom">
+        
+            <div class="row text-white">
+                <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                    www.institutoipei.com.mx
+                </div>
+                <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                    <a href="#">Inscribete en ipei</a>
+                </div>
+                <div class="col-12 col-lg-4 d-flex justify-content-center align-items-center">
+                    C.C.T 15PBT1409J
+                </div>
+            </div>
+        
+    </footer>
+
+ <link rel="stylesheet" href="j/jquery-3.3.1.min.js">
+ <link rel="stylesheet" href="j/bootstrap.min.js">
+
+</body>
+
